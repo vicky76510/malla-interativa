@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.item {
+  background-color: #3498db;
+  color: white;
+  padding: 40px 0;
+  font-size: 20px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
